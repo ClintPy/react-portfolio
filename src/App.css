@@ -93,6 +93,7 @@ body {
 .avatar-img {
   height: 250px;
   padding-top: 5em;
+  border-bottom-left-radius: 25px;
 }
 
 .banner-text {

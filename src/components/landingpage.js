@@ -14,16 +14,16 @@ class LandingPage extends Component {
               <hr />
               <p>
                 HTML/CSS | Javascript | React | React Redux | NodeJS | Express |
-                Python | Django | Flask{" "}
+                Python | Django | Flask
               </p>
               <div className="social-links">
                 {/* Linkedin */}
                 <a
-                  href="http://google.com"
+                  href="http://linkedin.com/in/clint-maruti"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-linkedin-square" aria-hidden="true" />
+                  <i className="fab fa-linkedin-square" aria-hidden="true" />
                 </a>
                 {/* Github */}
                 <a
@@ -31,23 +31,23 @@ class LandingPage extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-github-square" aria-hidden="true" />
+                  <i className="fab fa-github" aria-hidden="true" />
                 </a>
                 {/* Twitter */}
                 <a
-                  href="http://google.com"
+                  href="https://twitter.com/climaTellem"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-twitter-square" aria-hidden="true" />
+                  <i className="fab fa-twitter-square" aria-hidden="true" />
                 </a>
                 {/* Free Code Camp */}
                 <a
-                  href="http://google.com"
+                  href="https://dev.to/clintpy"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-free-code-camp" aria-hidden="true" />
+                  <i className="fab fa-dev" aria-hidden="true" />
                 </a>
                 {/* gmail */}
                 <a
@@ -55,7 +55,7 @@ class LandingPage extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-gmail-square" aria-hidden="true" />
+                  <i className="fas fa-envelope-square" aria-hidden="true" />
                 </a>
               </div>
             </div>
