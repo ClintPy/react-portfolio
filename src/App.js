@@ -12,9 +12,7 @@ function App() {
         <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Clima.Dev</Link>} scroll>
             <Navigation>
               <Link to="/resume">Resume</Link>              
-              <Link to="/project">Projects</Link>
-              <Link to="/about">About Me</Link>
-              <Link to="/contact">Contact Me</Link>
+              <Link to="/project">Projects</Link>                            
             </Navigation>
           </Header>
           <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">Clima.Dev</Link>}>

@@ -12,7 +12,15 @@ import {
   CardMenu,
   IconButton
 } from "react-mdl";
-import background from "./prj1.png"
+import "./index.css";
+import ExpressProject from "./expressProjects";
+import PythonProject from "./pythonProjects";
+import ReactProjects from "./reactProjects";
+
+import background from "./prj1.png";
+import background2 from "./prj2.png";
+import background3 from "./prj3.png";
+import background4 from "./prj4.png";
 
 class Project extends Component {
   constructor(props) {
@@ -25,108 +33,21 @@ class Project extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-        <div className="projects-grid ">
-          {/* Project 1 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background: `url(${background}) center / cover`
-              }}
-            >
-              <p>Mpango App</p>
-            </CardTitle>
-            <CardText>
-              <b>Mpango App</b> is a project planner web application that lets users sign up and
-              set there plans.
-            </CardText>
-            <CardActions border>
-              <Button colored><Link to="https://github.com/ClintPy/mpango-app-react-redux-firebase">GitHub</Link></Button>
-              <Button colored>CodePen</Button>
-              <Button colored><Link to="https://relaxed-boyd-b5aed2.netlify.com/">Live Demo</Link></Button>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-          {/* Project 2 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
-              }}
-            >
-              React Project #2
-            </CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-          {/* Project 3 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
-              }}
-            >
-              React Project #3
-            </CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-        </div>
+       <ReactProjects />
       );
     } else if (this.state.activeTab === 1) {
       return (
         <div>
-          <h1>This is Express</h1>
+          <ExpressProject />
         </div>
       );
     } else if (this.state.activeTab === 2) {
       return (
         <div>
-          <h1>This is Python</h1>
+          <PythonProject/>
         </div>
       );
-    } else if (this.state.activeTab === 3) {
-      return (
-        <div>
-          <h1>This is MongoDB</h1>
-        </div>
-      );
-    } else if (this.state.activeTab === 4) {
-      return (
-        <div>
-          <h1>This is MongoDB</h1>
-        </div>
-      );
-    }
+    } 
   }
 
   render() {
@@ -140,8 +61,6 @@ class Project extends Component {
           <Tab>React</Tab>
           <Tab>Express</Tab>
           <Tab>Python</Tab>
-          <Tab>MongoDB</Tab>
-          <Tab>PHP</Tab>
         </Tabs>
         <Grid>
           <Cell col={12}>

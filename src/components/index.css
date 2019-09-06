@@ -1,3 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Gayathri|Lato|Roboto&display=swap");
+
 body {
-    background: #DEEFE7;
+  background: #deefe7;
+  font-family: "Lato", sans-serif;
+}
+
+.projects-grid {
+  display: grid;
+  width: 100%;
+  margin-left: 0%;
+  grid-template-columns: 300px 300px 300px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.projects-grid :first-child {
+  align-self: center;
+}
+.projects-grid a {
+  background-color: red;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 15px;
+}
+
+.projects-grid a:hover {
+  background-color: #555;
+}
+
+.projects-grida:active {
+  background-color: black;
+}
+
+
+.project-express {
+  display: grid;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  grid-template-columns: 300px 300px 300px;
+}
+
+.project-express a {
+  background-color: red;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.project-express a:hover {
+  background-color: #555;
+}
+
+.project-express a:active {
+  background-color: black;
 }
