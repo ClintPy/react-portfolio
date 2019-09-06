@@ -16,6 +16,7 @@ import "./index.css";
 import ExpressProject from "./expressProjects";
 import PythonProject from "./pythonProjects";
 import ReactProjects from "./reactProjects";
+import UiProjects from "./uiProjects";
 
 import background from "./prj1.png";
 import background2 from "./prj2.png";
@@ -47,7 +48,13 @@ class Project extends Component {
           <PythonProject/>
         </div>
       );
-    } 
+    } else if (this.state.activeTab == 3) {
+      return(
+        <div>
+          <UiProjects />
+        </div>
+      )
+    }
   }
 
   render() {
@@ -61,6 +68,7 @@ class Project extends Component {
           <Tab>React</Tab>
           <Tab>Express</Tab>
           <Tab>Python</Tab>
+          <Tab>UI/UX</Tab>
         </Tabs>
         <Grid>
           <Cell col={12}>
