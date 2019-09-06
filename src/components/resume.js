@@ -3,7 +3,7 @@ import { Grid, Cell } from "react-mdl";
 import Education from "./education";
 import Experience from "./experience";
 import Skills from "./skills";
-import image from "./photo3.png";
+import image from "./photo4.png";
 import "./index.css";
 
 class Resume extends Component {
@@ -19,8 +19,18 @@ class Resume extends Component {
             <h4 style={{ color: "grey" }}>Software Developer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Detailed-oriented, responsible and committed Software Engineer,
+              with a get-it-done, on-time and high-quality product spirit, and a
+              solid three years of experience defining requirements, designing,
+              implementing, testing and delivering complex back-end and
+              front-end and web applications using various programming languages
+              and technologies. He is very creative hence uses his talent in
+              giving a deep intuitive visual aspect to applications he develops.
+              He is also an advocate for building open-source projects. Besides
+              coding, Clint is adventurous and outgoing. He enjoys meeting new
+              people and learning about new cultures. He is also a gamer, a
+              strong lover of music and theater arts. He is a self-taught
+              guitarist and to wrap it up a photographer.
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <h5>Adress</h5>
