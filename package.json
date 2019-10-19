@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": " https://clintpy.github.io/react-portfolio/",
+  "homepage": " https://clintpy.github.io/react-portfolio",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "re-base": "^4.0.0",
@@ -13,9 +13,9 @@
     "react-scripts": "3.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject"
   },
