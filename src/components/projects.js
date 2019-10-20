@@ -1,27 +1,10 @@
 import React, { Component } from "react";
-import {
-  Tabs,
-  Tab,
-  Grid,
-  Cell,
-  Card,
-  CardTitle,
-  CardText,
-  CardActions,
-  Button,
-  CardMenu,
-  IconButton
-} from "react-mdl";
+import { Tabs, Tab, Grid, Cell } from "react-mdl";
 import "./index.css";
 import ExpressProject from "./expressProjects";
 import PythonProject from "./pythonProjects";
 import ReactProjects from "./reactProjects";
 import UiProjects from "./uiProjects";
-
-import background from "./prj1.png";
-import background2 from "./prj2.png";
-import background3 from "./prj3.png";
-import background4 from "./prj4.png";
 
 class Project extends Component {
   constructor(props) {
@@ -33,9 +16,7 @@ class Project extends Component {
 
   toggleCategories() {
     if (this.state.activeTab === 0) {
-      return (
-       <ReactProjects />
-      );
+      return <ReactProjects />;
     } else if (this.state.activeTab === 1) {
       return (
         <div>
@@ -45,15 +26,15 @@ class Project extends Component {
     } else if (this.state.activeTab === 2) {
       return (
         <div>
-          <PythonProject/>
+          <PythonProject />
         </div>
       );
-    } else if (this.state.activeTab == 3) {
-      return(
+    } else if (this.state.activeTab === 3) {
+      return (
         <div>
           <UiProjects />
         </div>
-      )
+      );
     }
   }
 

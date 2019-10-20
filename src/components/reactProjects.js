@@ -8,7 +8,6 @@ import {
   CardActions,
   Button
 } from "react-mdl";
-import apiIcon from "./api.png";
 
 class ReactProject extends Component {
   render() {

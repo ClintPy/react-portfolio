@@ -53,36 +53,17 @@ class Resume extends Component {
             />
             <Education
               startYear={2013}
-              endYear={2016}
+              endYear={2015}
               schoolName="Jomo Kenyatta University of Agriculture and Technology"
               schoolDescription="Bsc. Mathematics and Computer Science"
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Experience</h2>
-            <Experience
-              startYear={2018}
-              endYear={2019}
-              jobName="Andela"
-              jobDescription="Software Developer"
-            />
-            <Experience
-              startYear={2017}
-              endYear={2018}
-              jobName="Kreative Reinaissance"
-              jobDescription="Software Developer Lead"
-            />
-            <Experience
-              startYear={2015}
-              endYear={2017}
-              jobName="Letrads Consultants"
-              jobDescription="Software Developer Lead"
-            />
+            <Experience />
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Skills</h2>
-            <Skills skill="Javascript" progress={100} />
-            <Skills skill="Python" progress={80} />
-            <Skills skill="NodeJs" progress={85} />
-            <Skills skill="React" progress={70} />
+            <Skills />
+            {/*  */}
           </Cell>
         </Grid>
       </div>

@@ -34,7 +34,6 @@ body {
   background-color: black;
 }
 
-
 .project-express {
   display: grid;
   align-items: center;
@@ -58,4 +57,11 @@ body {
 
 .project-express a:active {
   background-color: black;
+}
+
+.center-it {
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
