@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Gayathri|Lato|Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Jomolhari|Montserrat|Raleway&display=swap');
+
 
 body {
   background: #deefe7;
@@ -63,5 +65,10 @@ body {
   margin-top: 4rem;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  text-align: center;
+}
+
+
+.cardDetails {
+  font-family: 'Montserrat', sans-serif;
 }
