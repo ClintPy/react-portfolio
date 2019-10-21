@@ -23,11 +23,11 @@ class Skills extends Component {
             </ListItem>
             <ListItem>Database: MongoDB | MySQL | PostgreSQL</ListItem>
             <ListItem>
-              DevOps: Docker, Jenkis, Vagrant, Puppetlabs, Kubernetes
+              DevOps: Git, Docker, Jenkis, Vagrant, Puppetlabs, Kubernetes
             </ListItem>
             <ListItem>
               Agile Methodology: Atlassian tools - (Bitbucket, Confluence, Jira
-              Software, Trello), Git, Pivotal Tracker
+              Software, Trello), Pivotal Tracker
             </ListItem>
           </List>
         </Cell>
